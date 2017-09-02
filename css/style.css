@@ -1,0 +1,45 @@
+header {
+	width: 100%;
+	background: #EEEEEE;
+}
+.Studio {
+	position: absolute;
+	right: 840px;
+	top: 45px;
+}
+.basket {
+	position: absolute;
+	right: 140px;
+	top: 45px;
+}
+.icon {
+	position: absolute;
+	right: 210px;
+	top: 45px;
+}
+.main-navigation {
+	list-style: none;
+}
+.Customers {
+	position: absolute;
+	right: 740px;
+	top: 45px;
+}
+.shop {
+	position: absolute;
+	right: 640px;
+	top: 45px;
+}
+.contacts {
+	position: absolute;
+	right: 500px;
+	top: 45px;
+}
+.logo {
+	position: absolute;
+	left: 9.7%;
+}
+.caption {
+	text-align: center;
+	padding-bottom: 10px;
+}

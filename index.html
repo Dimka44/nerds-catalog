@@ -3,20 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>nerd's</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
 		<div class="container">
 			<a class="logo" href="#">
-				<img src="unknown" alt="">Nerd's
+				<img src="img/nerds-logo.svg" alt="logo" width="160px" height="65px" class="logo">
 			</a>
-			<nav class="mine-navigation">
+			<nav class="main-navigation">
 				<ul>
-					<li><a href="#">Студия</a></li>
-					<li><a href="#">Клиенты</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Корзина</a></li>
+					<li><a href="#" class="Studio">Студия</a></li>
+					<li class="Customers"><a href="#">Клиенты</a></li>
+					<li class="shop"><a href="#">Магазин</a></li>
+					<li class="contacts"><a href="#">Контакты</a></li>
+					<li><a href="#" class="basket">Корзина</a></li>
+					<img src="img/cart-icon.jpg" alt="icon" class="icon">
 				</ul>
 			</nav>
 		</div>
@@ -28,27 +30,23 @@
 		<form>
 			<div class="form1">
 			<div class="filter1">
-				<input type="range" min="0" max="20000" step="1" value="15000">
-				<p>от</p>
-				<input type="text" value="0">
-				<p>до</p>
+				<input type="range" min="0" max="25000" step="1" value="15000"><br>от
+				<input type="text" value="0">до
 				<input type="text" value="15000">
-			</div>
-				<div class="filter2">
 					<h2>Сетка:</h2>
 					<label>
-						<input type="radio" name="Адаптивная" id="rd1">
+						<input type="radio" id="rd1" checked>
 						Адаптивная
 					</label>
 					<label>
-						<input type="radio" name="Фиксированная" id="rd2">
+						<input type="radio" id="rd2">
 						Фиксированная
 					</label>
 					<label>
-						Адаптивная
+						Резиновая
 					</label>
 				</div>
-					<div class="filter3">
+					<div class="filter2">
 						<h2>Особенности:</h2>
 						<label>
 							<input type="checkbox" name="Слайдер" id="ch1" checked>
@@ -80,6 +78,30 @@
 					</div>
 			</div>
 		</form>
+		<div class="catalog">
+		<!--Начинаются перечисление товаров-->
+			<div class="catalog-item">
+				<img src="img/Sedona.jpg" alt="Sedona">
+				<h3>Sedona</h3>
+				<p>Информационный сайт для туристов</p>
+				<button type="submit">9 900 руб.</button>
+			</div>
+			<div class="catalog-item">
+				<img src="img/Фон.jpg" alt="Pink">
+			</div>
+			<div class="catalog-item">
+				<img src="img/Borodinski.jpg" alt="Borodinski">
+			</div>
+			<div class="catalog-item">
+				<img src="img/mishka.jpg" alt="Mishka">
+			</div>
+			<div class="catalog-item">
+				<img src="img/А+.jpg" alt="A plus">
+			</div>
+			<div class="catalog-item">
+				<img src="img/кваст.jpg" alt="kvast">
+			</div>
+		</div>
 		<div class="paginator">
 			<ul>
 				<li>
