@@ -2,23 +2,23 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>nerd's</title>
+	<title>Nerd's-Магазин готовых шаблонов</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
 		<div class="container">
 			<a class="logo" href="#">
-				<img src="img/nerds-logo.svg" alt="logo" width="160px" height="65px" class="logo">
+				<img src="img/nerds-logo.png" alt="logo" width="160px" height="65px" id="logo">
 			</a>
 			<nav class="main-navigation">
 				<ul>
-					<li><a href="#" class="Studio">Студия</a></li>
-					<li class="Customers"><a href="#">Клиенты</a></li>
-					<li class="shop"><a href="#">Магазин</a></li>
-					<li class="contacts"><a href="#">Контакты</a></li>
-					<li><a href="#" class="basket">Корзина</a></li>
-					<img src="img/cart-icon.jpg" alt="icon" class="icon">
+					<li id="Studio"><a href="#">Студия</a></li>
+					<li id="Customers"><a href="#">Клиенты</a></li>
+					<li id="Shop"><a href="#">Магазин</a></li>
+					<li id="Contacts"><a href="#">Контакты</a></li>
+					<li id="Basket"><a href="#">Корзина</a></li>
+					<img src="img/cart-icon.png" alt="icon" id="icon">
 				</ul>
 			</nav>
 		</div>
@@ -27,27 +27,36 @@
 		</div>
 		</header>
 	<main>
-		<form>
-			<div class="form1">
-			<div class="filter1">
-				<input type="range" min="0" max="25000" step="1" value="15000"><br>от
-				<input type="text" value="0">до
-				<input type="text" value="15000">
-					<h2>Сетка:</h2>
-					<label>
+		<div class="container">
+			<form action="">
+				<div class="filter">
+					<h3>Стоимость:</h3>
+						<div class="min">
+							<input type="range" min="0" max="25000" step="1" value="15000"><br>от
+							<input type="text" value="0" size="1" id="ot">до
+							<input type="text" value="15000" size="4" id="do">
+						</div>
+				</div>
+				<div class="filter">
+						<h3>Сетка:</h3>
+				<div class="rd-group">		
+					<label for="rd1">
 						<input type="radio" id="rd1" checked>
 						Адаптивная
-					</label>
-					<label>
+					</label><br>
+					<label for="rd2">
 						<input type="radio" id="rd2">
 						Фиксированная
-					</label>
-					<label>
+					</label><br>
+					<label for="rd3">
+						<input type="radio" id="rd3">
 						Резиновая
 					</label>
+				</div>	
 				</div>
-					<div class="filter2">
-						<h2>Особенности:</h2>
+					<div class="filter">
+						<h3>Особенности:</h3>
+						<div class="ch-group">
 						<label>
 							<input type="checkbox" name="Слайдер" id="ch1" checked>
 							Слайдер
@@ -68,40 +77,51 @@
 							<input type="checkbox" name="Корзина" id="ch5">
 							Корзина
 						</label>
+						</div>
 						<button class="btn" type="submit">Показать</button>
 					</div>
-					<div class="sort">
-						<h3>Сортировать:</h3>
-						<p>по цене</p>
-						<p>по типу</p>
-						<p>по названию</p>
-					</div>
+		</form>	
+		<div class="Right">
+			<div class="sort">
+				<h3>Сортировать:</h3>
+				<button class="cena">по цене</button>
+				<button class="typ">по типу</button>
+				<button class="nazvanie">по названию</button>
+				<button class="down">▼</button>
+				<button class="up">▲</button>
 			</div>
-		</form>
-		<div class="catalog">
-		<!--Начинаются перечисление товаров-->
+			<!--Начинаются перечисление товаров-->
+		<div class="catalog-items">
 			<div class="catalog-item">
-				<img src="img/Sedona.jpg" alt="Sedona">
+				<img src="img/img-sedona.jpg" alt="Sedona">
+				<div class="desc">
 				<h3>Sedona</h3>
 				<p>Информационный сайт для туристов</p>
 				<button type="submit">9 900 руб.</button>
+				</div>
 			</div>
 			<div class="catalog-item">
-				<img src="img/Фон.jpg" alt="Pink">
+				<img src="img/img-pink.jpg" alt="Pink">
+				<div class="desc"></div>
 			</div>
 			<div class="catalog-item">
-				<img src="img/Borodinski.jpg" alt="Borodinski">
+				<img src="img/img-barbershop.jpg" alt="Borodinski">
+				<div class="desc"></div>
 			</div>
 			<div class="catalog-item">
-				<img src="img/mishka.jpg" alt="Mishka">
+				<img src="img/img-mishka.jpg" alt="Mishka">
+				<div class="desc"></div>
 			</div>
 			<div class="catalog-item">
-				<img src="img/А+.jpg" alt="A plus">
+				<img src="img/img-aplus.jpg" alt="A plus">
+				<div class="desc"></div>
 			</div>
 			<div class="catalog-item">
-				<img src="img/кваст.jpg" alt="kvast">
+				<img src="img/img-kvast.jpg" alt="Kvast">
+				<div class="desc"></div>
 			</div>
 		</div>
+	</div>
 		<div class="paginator">
 			<ul>
 				<li>
@@ -118,15 +138,20 @@
 				</li>
 			</ul>
 		</div>
+	</div>
+		<div class="map">
+        <img src="img/Карта.png" alt="Карта">
+        <img src="img/map-marker.png" class="marker">
+    </div>
 	</main>
 	<footer class="main-footer">
      	<section class="footer-contacts">
      		<h3>NЁRDS DESIGN STUDIO</h3>
-     		191186, Санкт-Петербург,<br>
-     		ул. Б. Конюшенная, д. 19/8<br>
-     		тел. +7 (812) 275-75-75<br>
-     		<button>Напишите нам</button>
-     		<img src="unknown" alt="Карта">
+<pre>
+191186, Санкт-Петербург,
+ул. Б. Конюшенная, д. 19/8
+тел. +7 (812) 275-75-75<pre>
+<button>Напишите нам</button>
      	</section>
      	<section class="footer-social">
      		<a class="social-btn social-btn-vk" href="#"></a>

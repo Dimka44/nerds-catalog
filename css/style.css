@@ -1,45 +1,99 @@
-header {
+.main-header {
 	width: 100%;
 	background: #EEEEEE;
+	margin: -8px;
 }
-.Studio {
-	position: absolute;
-	right: 840px;
-	top: 45px;
+#logo {
+	position: relative;
+	top: 49px;
+	left: 140px;
 }
-.basket {
-	position: absolute;
-	right: 140px;
-	top: 45px;
-}
-.icon {
-	position: absolute;
-	right: 210px;
-	top: 45px;
-}
-.main-navigation {
+#Studio {
+	position: relative;
+	left: 400px;
 	list-style: none;
 }
-.Customers {
-	position: absolute;
-	right: 740px;
-	top: 45px;
+#Customers {
+	position: relative;
+	left: 500px;
+	bottom: 17px;
+	list-style: none;
 }
-.shop {
-	position: absolute;
-	right: 640px;
-	top: 45px;
+#Shop {
+	position: relative;
+	left: 600px;
+	bottom: 34px;
+	list-style: none;
 }
-.contacts {
-	position: absolute;
-	right: 500px;
-	top: 45px;
+#Basket {
+	position: relative;
+	left: 1040px;
+	bottom: 68px;
+	list-style: none;
 }
-.logo {
-	position: absolute;
-	left: 9.7%;
+#Contacts {
+	position: relative;
+	left: 700px;
+	bottom: 51px;
+	list-style: none;
+}
+#icon {
+	position: relative;
+	left: 1005px;
+	bottom: 85px;
 }
 .caption {
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 120px;
 }
+.sort h3 {
+	position: relative;
+	left: 540px;
+	bottom: 500px;
+	padding-top: 60px;
+}
+.filter h3 {
+	position: relative;
+	padding-top: 60px;
+	padding-left: 140px;
+}
+.cena {
+	position: relative;
+	left: 840px;
+	bottom: 543px;
+}
+.typ {
+position: relative;
+left: 860px;
+bottom: 543px;
+}
+.nazvanie {
+position: relative;
+left: 880px;
+bottom: 543px;
+}
+.up {
+position: relative;
+left: 930px;
+bottom: 543px;
+border: 0px;
+background-color: white;
+color: #A5A5A5;
+}
+.down {
+position: relative;
+left: 930px;
+bottom: 543px;
+border: 0px;
+background-color: white;
+}
+.min {
+	position: relative;
+	left: 140px;
+}
+#do {
+	padding-left: 10px;
+}
+#ot {
+	padding-left: 25px;
+} 
