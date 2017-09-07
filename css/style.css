@@ -507,7 +507,7 @@ body {
 	padding-top: 60px;
 	padding-left: 140px;
 }
-.cena {
+.price {
 	position: relative;
 	left: 840px;
 	bottom: 543px;
@@ -517,7 +517,7 @@ position: relative;
 left: 860px;
 bottom: 543px;
 }
-.nazvanie {
+.name {
 position: relative;
 left: 880px;
 bottom: 543px;
@@ -550,4 +550,34 @@ background-color: white;
 button {
 	background: no-repeat;
 	border: 0px solid #eee;
+}
+ .catalog-item .desc {
+  width: 360px;
+  height: 230px;
+  background-color: #eeeeee;
+}
+.desc a {
+  background-color: #fb565a;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  color: white;
+  position: relative;
+  padding-top: 20px;
+  left: 50px;
+  top: 30px;
+}
+.desc {
+  position: relative;
+  bottom: 253px;
+}
+.catalog-item p {
+  color: #666666;
+}
+#decor {
+  position: relative;
+  bottom: 576px;
+  right: 364px;
 }
