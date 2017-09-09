@@ -548,45 +548,42 @@ button {
   display: inline-block;
 }
 form {
-  float: left;
+  float: left; width: 540px;
 }
 .Right {
-  float: right;
-}
-.paginator {
-  float: left;
+  float: right; width: 900px;
 }
 .sort h3 {
   position: relative;
-  right: 130px;
+
 }
 .price {
   position: relative;
   bottom: 40px;
-  left: 268px;
+  left: 425px;
+
 }
 .typ {
   position: relative;
   bottom: 40px;
-  left: 298px;
+  left: 450px;
 }
 .name {
   position: relative;
   bottom: 40px;
-  left: 328px;
+  left: 475px;
 }
 .down {
   position: relative;
   bottom: 40px;
-  left: 358px;
+  left: 524px;
 }
 .up {
   position: relative;
   bottom: 40px;
-  left: 358px;
+  left: 524px;
 }
 .catalog-items {
   position: relative;
   top: 61px;
-  right: 130px;
 }
