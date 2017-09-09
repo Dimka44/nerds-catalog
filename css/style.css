@@ -445,13 +445,16 @@ textarea {
 [скрыто] {
   display: none;
 }
+* {
+  box-sizing: border-box;
+}
 body {
 	font-family: 'Roboto', sans-serif;
+  width: 1440px;
+
 }
 .main-header {
-	width: 100%;
-	background: #EEEEEE;
-	margin: -8px;
+  background-color: #eeeeee;
 }
 #logo {
 	position: relative;
@@ -460,87 +463,47 @@ body {
 }
 #Studio {
 	position: relative;
-	left: 400px;
+	left: 500px;
 	list-style: none;
 }
 #Customers {
 	position: relative;
-	left: 500px;
-	bottom: 17px;
+	left: 611px;
+	bottom: 19px;
 	list-style: none;
 }
 #Shop {
 	position: relative;
-	left: 600px;
-	bottom: 34px;
+	left: 735px;
+	bottom: 36px;
 	list-style: none;
 }
 #Basket {
 	position: relative;
-	left: 1040px;
-	bottom: 68px;
+	left: 1225px;
+	bottom: 71px;
 	list-style: none;
 }
 #Contacts {
 	position: relative;
-	left: 700px;
-	bottom: 51px;
+	left: 855px;
+	bottom: 55px;
 	list-style: none;
 }
 #icon {
 	position: relative;
-	left: 1005px;
-	bottom: 85px;
+	left: 1185px;
+	bottom: 88px;
 }
-.caption {
+.caption h1 {
 	text-align: center;
-	padding-bottom: 120px;
+  padding-bottom: 115px;
 }
-.sort h3 {
+.filter {
 	position: relative;
-	left: 540px;
-	bottom: 500px;
-	padding-top: 60px;
-}
-.filter h3 {
-	position: relative;
-	padding-top: 60px;
 	padding-left: 140px;
 }
-.price {
-	position: relative;
-	left: 840px;
-	bottom: 543px;
-}
-.typ {
-position: relative;
-left: 860px;
-bottom: 543px;
-}
-.name {
-position: relative;
-left: 880px;
-bottom: 543px;
-}
-.up {
-position: relative;
-left: 930px;
-bottom: 543px;
-border: 0px;
-background-color: white;
-color: #A5A5A5;
-}
-.down {
-position: relative;
-left: 930px;
-bottom: 543px;
-border: 0px;
-background-color: white;
-}
-.min {
-	position: relative;
-	left: 140px;
-}
+
 #do {
 	padding-left: 10px;
 }
@@ -555,18 +518,18 @@ button {
   width: 360px;
   height: 230px;
   background-color: #eeeeee;
+  text-align: center;
 }
 .desc a {
   background-color: #fb565a;
   border-radius: 2px;
-  display: block;
+  display: inline-block;
   text-align: center;
   width: 200px;
-  height: 40px;
+  height: 49px;
   color: white;
   position: relative;
-  padding-top: 20px;
-  left: 50px;
+  padding-top: 15px;
   top: 30px;
 }
 .desc {
@@ -580,4 +543,50 @@ button {
   position: relative;
   bottom: 576px;
   right: 364px;
+}
+.main-navigation {
+  display: inline-block;
+}
+form {
+  float: left;
+}
+.Right {
+  float: right;
+}
+.paginator {
+  float: left;
+}
+.sort h3 {
+  position: relative;
+  right: 130px;
+}
+.price {
+  position: relative;
+  bottom: 40px;
+  left: 268px;
+}
+.typ {
+  position: relative;
+  bottom: 40px;
+  left: 298px;
+}
+.name {
+  position: relative;
+  bottom: 40px;
+  left: 328px;
+}
+.down {
+  position: relative;
+  bottom: 40px;
+  left: 358px;
+}
+.up {
+  position: relative;
+  bottom: 40px;
+  left: 358px;
+}
+.catalog-items {
+  position: relative;
+  top: 61px;
+  right: 130px;
 }
