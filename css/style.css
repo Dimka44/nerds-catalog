@@ -452,6 +452,7 @@ body {
 	font-family: 'Roboto', sans-serif;
   width: 1440px;
   margin: 0px;
+  padding: 0px;
 }
 a {
   text-decoration: none;
@@ -512,6 +513,18 @@ a {
 .filter {
 	position: relative;
 	padding-left: 140px;
+  color: #ACACAC;
+}
+.filter a {
+  display: inline-block;
+  text-align: center;
+  background-color: #EEEEEE;
+  width: 260px;
+  height: 50px;
+  padding-top: 15px;
+}
+.filter h3 {
+  color: black;
 }
 
 #do {
@@ -565,44 +578,92 @@ form {
 }
 .sort h3 {
   position: relative;
-
+  left: 30px;
 }
 .price {
   position: relative;
   bottom: 40px;
-  left: 425px;
+  left: 430px;
 
 }
 .typ {
   position: relative;
   bottom: 40px;
-  left: 450px;
+  left: 460px;
 }
 .name {
   position: relative;
   bottom: 40px;
-  left: 475px;
+  left: 485px;
 }
 .down {
   position: relative;
   bottom: 40px;
-  left: 524px;
+  left: 520px;
 }
 .up {
   position: relative;
   bottom: 40px;
-  left: 524px;
+  left: 520px;
 }
 .catalog-items {
+  position:relative;
+  width: 820px;
+  height: 1920px;
+  padding-top: 60px;
+  left: 30px;
+}
+#pink {
   position: relative;
-  top: 61px;
+  left: 400px;
+  bottom: 830px;
+}
+#borodinski {
+  position: relative;
+  bottom: 1000px;
+}
+#mishka {
+  position: relative;
+  left: 400px;
+  bottom: 1830px;
+}
+#Aplus {
+  position: relative;
+  bottom: 2000px;
+}
+#kvast {
+  position: relative;
+  left: 400px;
+  bottom: 2830px;
+}
+#map {
+  margin-top: 200px;
 }
 .marker {
   position: relative;
   left: 820px;
-  bottom: 
+  bottom: 330px;
 }
 input {
   background-color: #EEEEEE;
   border: 0px solid #EEEEEE;
+}
+.paginator li {
+  border: 2px solid #EEEEEE;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;
+  top: 1700px;
+  left: 500px;
+}
+#two-three {
+  background-color: #EEEEEE;
+}
+#next {
+  width: 260px;
+  background-color: #EEEEEE;
 }
