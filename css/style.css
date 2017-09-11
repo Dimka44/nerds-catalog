@@ -451,7 +451,11 @@ textarea {
 body {
 	font-family: 'Roboto', sans-serif;
   width: 1440px;
-
+}
+a {
+  text-decoration: none;
+  color: black;
+  
 }
 .main-header {
   background-color: #eeeeee;
@@ -586,4 +590,9 @@ form {
 .catalog-items {
   position: relative;
   top: 61px;
+}
+.marker {
+  position: relative;
+  left: 820px;
+  bottom: 
 }
