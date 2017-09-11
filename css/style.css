@@ -449,13 +449,20 @@ textarea {
   box-sizing: border-box;
 }
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
   width: 1440px;
   margin: 0px;
   padding: 0px;
 }
 a {
   text-decoration: none;
+  color: black;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(60px/16px);
+  text-decoration: none;
+  text-transform: uppercase;
   color: black;
   
 }
@@ -482,25 +489,25 @@ a {
 #Shop {
 	position: relative;
 	left: 735px;
-	bottom: 36px;
+	bottom: 38px;
 	list-style: none;
 }
 #Basket {
 	position: relative;
 	left: 1225px;
-	bottom: 71px;
+	bottom: 75px;
 	list-style: none;
 }
 #Contacts {
 	position: relative;
 	left: 855px;
-	bottom: 55px;
+	bottom: 56px;
 	list-style: none;
 }
 #icon {
 	position: relative;
 	left: 1185px;
-	bottom: 88px;
+	bottom: 94px;
 }
 .caption h1 {
   display: inline-block;
