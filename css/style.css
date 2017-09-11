@@ -1,4 +1,4 @@
-/ *! normalize.css v7.0.0 | Лицензия MIT | github.com/necolas/normalize.css * /
+﻿/ *! normalize.css v7.0.0 | Лицензия MIT | github.com/necolas/normalize.css * /
 
 / * Документ
    ================================================== ======================== * *
@@ -451,6 +451,7 @@ textarea {
 body {
 	font-family: 'Roboto', sans-serif;
   width: 1440px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -459,6 +460,7 @@ a {
 }
 .main-header {
   background-color: #eeeeee;
+  margin: auto;
 }
 #logo {
 	position: relative;
