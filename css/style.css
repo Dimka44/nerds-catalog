@@ -502,8 +502,12 @@ a {
 	bottom: 88px;
 }
 .caption h1 {
-	text-align: center;
-  padding-bottom: 115px;
+  display: inline-block;
+  padding-bottom: 117px;
+  font-size: 40px;
+  position: relative;
+  left: 490px;
+
 }
 .filter {
 	position: relative;
@@ -597,4 +601,8 @@ form {
   position: relative;
   left: 820px;
   bottom: 
+}
+input {
+  background-color: #EEEEEE;
+  border: 0px solid #EEEEEE;
 }
