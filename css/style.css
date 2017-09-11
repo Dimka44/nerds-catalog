@@ -461,9 +461,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: calc(60px/16px);
-  text-decoration: none;
   text-transform: uppercase;
-  color: black;
   
 }
 .main-header {
@@ -491,30 +489,32 @@ a {
 	left: 735px;
 	bottom: 38px;
 	list-style: none;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
 }
 #Basket {
 	position: relative;
-	left: 1225px;
-	bottom: 75px;
+	left: 1208px;
+	bottom: 82px;
 	list-style: none;
 }
 #Contacts {
 	position: relative;
 	left: 855px;
-	bottom: 56px;
+	bottom: 64px;
 	list-style: none;
 }
 #icon {
 	position: relative;
-	left: 1185px;
-	bottom: 94px;
+	left: 1150px;
+	bottom: 100px;
 }
 .caption h1 {
   display: inline-block;
   padding-bottom: 117px;
   font-size: 40px;
   position: relative;
-  left: 490px;
+  left: 500px;
 
 }
 .filter {
@@ -529,6 +529,7 @@ a {
   width: 260px;
   height: 50px;
   padding-top: 15px;
+  margin-top: 50px;
 }
 .filter h3 {
   color: black;
@@ -549,6 +550,9 @@ button {
   height: 230px;
   background-color: #eeeeee;
   text-align: center;
+}
+.catalog-item h3 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 .desc a {
   background-color: #fb565a;
@@ -576,6 +580,7 @@ button {
 }
 .main-navigation {
   display: inline-block;
+  text-align: center;
 }
 form {
   float: left; width: 540px;
@@ -587,31 +592,40 @@ form {
   position: relative;
   left: 30px;
 }
+.sort button {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 15px;
+}
 .price {
   position: relative;
   bottom: 40px;
-  left: 430px;
+  left: 425px;
+  color: black;
 
 }
 .typ {
   position: relative;
   bottom: 40px;
-  left: 460px;
+  left: 455px;
+  color: #CBCBCB;
 }
 .name {
   position: relative;
   bottom: 40px;
-  left: 485px;
+  left: 480px;
+  color: #CBCBCB;
 }
 .down {
   position: relative;
   bottom: 40px;
-  left: 520px;
+  left: 500px;
+  color: black;
 }
 .up {
   position: relative;
   bottom: 40px;
-  left: 520px;
+  left: 500px;
+  color: #CBCBCB;
 }
 .catalog-items {
   position:relative;
@@ -664,7 +678,7 @@ input {
   margin-right: 5px;
   display: inline-block;
   position: relative;
-  top: 1700px;
+  top: 1600px;
   left: 500px;
 }
 #two-three {
@@ -673,4 +687,75 @@ input {
 #next {
   width: 260px;
   background-color: #EEEEEE;
+}
+.footer-copirite {
+  text-align: center;
+}
+.footer-copirite p {
+  position: relative;
+  right: 52px;
+  font-size: 12px;
+}
+.adress {
+width: 320px;
+height: 310px;
+background: white;
+position: relative;
+bottom: 560px;
+left: 140px;
+text-align: center;
+padding-top: 55px; 
+}
+#btn {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 1px solid white;
+  background-color: #FB565A;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 49px;
+  color: white;
+}
+.footer-social {
+  display: inline-block;
+  position: relative;
+  bottom: 400px;
+  left: 140px;
+  margin-bottom: auto;
+}
+#vk {
+  position: relative;
+  right: 58px;
+  bottom: 30px;
+}
+#fb {
+  position: relative;
+  right: 50px;
+  left: 40px;
+  bottom: 113px;
+}
+#inst {
+  position: relative;
+  right: 55px;
+  bottom: 195px;
+  left: 125px;
+}
+#fb1 {
+  position: relative;
+  bottom: 83px;
+  left: 90px;
+}
+#inst1 {
+  position: relative;
+  bottom: 165px;
+  left: 180px;
+}
+.footer-copirite {
+  display: inline-block;
+  position: relative;
+  bottom: 570px;
+  left: 540px;
+  margin-bottom: auto;
 }

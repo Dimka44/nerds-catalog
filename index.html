@@ -63,19 +63,19 @@
 						<label>
 							<input type="checkbox" name="Слайдер" id="ch1" checked>
 							Слайдер
-						</label>
+						</label><br>
 						<label>
 							<input type="checkbox" name="Блок преимуществ" id="ch2">
 							Блок преимуществ
-						</label>
+						</label><br>
 						<label>
 							<input type="checkbox" name="Новости" id="ch3" checked>
 							Новости
-						</label>
+						</label><br>
 						<label>
 							<input type="checkbox" name="Галерея" id="ch4">
 							Галерея
-						</label>
+						</label><br>
 						<label>
 							<input type="checkbox" name="Корзина" id="ch5">
 							Корзина
@@ -87,9 +87,9 @@
 		<div class="Right">
 			<div class="sort">
 				<h3>Сортировать:</h3>
-				<a class="price">по цене</a>
-				<a class="typ">по типу</a>
-				<a class="name">по названию</a>
+				<button class="price">по цене</button>
+				<button class="typ">по типу</button>
+				<button class="name">по названию</button>
 				<button class="down">▼</a>
 				<button class="up">▲</button>
 			</div>
@@ -108,8 +108,8 @@
 				<img src="img/img-pink.jpg" alt="Pink">
 				<img src="img/browser.png" alt="" id="decor">
 				<div class="desc">
-					<h3>Pink</h3>
-				<p>Информационный сайт для туристов</p>
+					<h3>Pink App</h3>
+				<p>Продуктовый лендинг приложения для IOS и Android</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
@@ -118,7 +118,7 @@
 				<img src="img/browser.png" alt="" id="decor">
 				<div class="desc">
 					<h3>Barbershop</h3>
-				<p>Информационный сайт для туристов</p>
+				<p>Сайт салона красоты. Для мужчин, да.</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
@@ -127,7 +127,7 @@
 				<img src="img/browser.png" alt="" id="decor">
 				<div class="desc">
 					<h3>Mishka</h3>
-				<p>Информационный сайт для туристов</p>
+				<p>Интернет магазин </p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
@@ -180,29 +180,38 @@
         <img src="img/Карта.png" alt="Карта" id="map">
         <img src="img/map-marker.png" class="marker">
     </div>
-	</main>
-	<footer class="main-footer">
-     	<section class="footer-contacts">
-     		<h3>NЁRDS DESIGN STUDIO</h3>
-<pre>
+    <div class="adress">
+    	<h3>NЁRDS DESIGN STUDIO</h3>
+ 	<pre>
 191186, Санкт-Петербург,
 ул. Б. Конюшенная, д. 19/8
-тел. +7 (812) 275-75-75<pre>
-<button>Напишите нам</button>
-     	</section>
+<p id="tel">тел. +7 (812) 275-75-75</p></pre>
+<button id="btn">Напишите нам</button>
+    </div>
+	</main>
+	<footer class="main-footer">
      	<section class="footer-social">
-     		<a class="social-btn social-btn-vk" href="#">
+     	<div class="vk">
+     	<img src="img/vk.png">
+     		<a class="social-btn social-btn-vk" href="#" id="vk">
      			<img src="img/vk-icon.png">
      		</a>
-			<a class="social-btn social-btn-fb" href="#">
+     	</div>
+     	<div class="fb">
+     	<img src="img/fb.png" id="fb1">
+			<a class="social-btn social-btn-fb" href="#" id="fb">
 				<img src="img/fb-icon.png">
 			</a>
-			<a class="social-btn social-btn-inst" href="#">
+		</div>
+		<div class="inst">
+		<img src="img/inst.png" id="inst1">
+			<a class="social-btn social-btn-inst" href="#" id="inst">
 				<img src="img/insta-icon.png">
 			</a>
+		</div>
      	</section>
      	<section class="footer-copirite">
-     		<h3>Давайте дружить, это выгодно!</h3>
+     		<h1>Давайте дружить, это выгодно!</h1>
      		<p>Скидка 10% для друзей из социальных сетей.</p>
      	</section>
      </footer>
