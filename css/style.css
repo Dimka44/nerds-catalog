@@ -467,6 +467,9 @@ a {
   background-color: #eeeeee;
   margin: auto;
 }
+.main-navigation li {
+  list-style: none;
+}
 #logo {
 	position: relative;
 	top: 49px;
@@ -475,19 +478,16 @@ a {
 #Studio {
 	position: relative;
 	left: 500px;
-	list-style: none;
 }
 #Customers {
 	position: relative;
 	left: 611px;
 	bottom: 19px;
-	list-style: none;
 }
 #Shop {
 	position: relative;
 	left: 735px;
 	bottom: 38px;
-	list-style: none;
   border-bottom: 2px solid red;
   padding-bottom: 5px;
 }
@@ -495,13 +495,11 @@ a {
 	position: relative;
 	left: 1208px;
 	bottom: 82px;
-	list-style: none;
 }
 #Contacts {
 	position: relative;
 	left: 855px;
 	bottom: 64px;
-	list-style: none;
 }
 #icon {
 	position: relative;
