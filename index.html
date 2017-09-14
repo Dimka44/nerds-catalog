@@ -11,17 +11,16 @@
 		<div class="container">
 		<div class="index-logo">
 			<a class="logo" href="#">
-				<img src="img/nerds-logo.png" alt="logo" width="160px" height="65px" id="logo">
+				<img src="img/nerds-logo.png" alt="logo" width="160px" height="65px" class="logo">
 			</a>
 		</div>
 			<nav class="main-navigation">
-				<ul>
-					<li id="Studio"><a href="#">Студия</a></li>
-					<li id="Customers"><a href="#">Клиенты</a></li>
-					<li id="Shop"><a href="#">Магазин</a></li>
-					<li id="Contacts"><a href="#">Контакты</a></li>
-					<li id="Basket"><a href="#">Корзина</a></li>
-					<img src="img/cart-icon.png" alt="icon" id="icon">
+				<ul class="menu">
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#" class="Basket">Корзина</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -30,8 +29,9 @@
 		</div>
 		</header>
 	<main>
-		<div class="container">
+		
 			<form action="">
+			<div class="container">
 				<div class="filter">
 					<h3>Стоимость:</h3>
 						<div class="min">
@@ -40,7 +40,7 @@
 							<input type="text" value="15000" size="4" id="do">
 						</div>
 				</div>
-				<div class="filter">
+				<div class="Grid">
 						<h3>Сетка:</h3>
 				<div class="rd-group">		
 					<label for="rd1">
@@ -57,7 +57,7 @@
 					</label>
 				</div>	
 				</div>
-					<div class="filter">
+					<div class="Features">
 						<h3>Особенности:</h3>
 						<div class="ch-group">
 						<label>
@@ -90,8 +90,8 @@
 				<button class="price">по цене</button>
 				<button class="typ">по типу</button>
 				<button class="name">по названию</button>
-				<button class="down">▼</a>
-				<button class="up">▲</button>
+				<a class="down">▼</a></a>
+				<a class="up">▲</a>
 			</div>
 			<!--Начинаются перечисление товаров-->
 		<div class="catalog-items">
@@ -153,7 +153,7 @@
 	</div>
 	</div>
 	<div class="paginator">
-			<ul>
+			<ul class="clearfix">
 				<li>
 				<button>
 					<a href="#">1</a>

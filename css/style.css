@@ -453,306 +453,82 @@ body {
   width: 1440px;
   margin: 0px;
 }
-a {
-  text-decoration: none;
-  color: black;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: calc(60px/16px);
-  text-transform: uppercase;
-  
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 1440px;
+  margin: 0 auto;
 }
 .main-header {
   background-color: #eeeeee;
-  margin: auto;
+  height: 355px;
 }
-.main-navigation li {
-  list-style: none;
+.container {
+  width: 1160px;
+  margin: 0 auto;
 }
-#logo {
-	position: relative;
-	top: 49px;
-	left: 140px;
-}
-#Studio {
-	position: relative;
-	left: 500px;
-}
-#Customers {
-	position: relative;
-	left: 611px;
-	bottom: 19px;
-}
-#Shop {
-	position: relative;
-	left: 735px;
-	bottom: 38px;
-  border-bottom: 2px solid red;
-  padding-bottom: 5px;
-}
-#Basket {
-	position: relative;
-	left: 1208px;
-	bottom: 82px;
-}
-#Contacts {
-	position: relative;
-	left: 855px;
-	bottom: 64px;
-}
-#icon {
-	position: relative;
-	left: 1150px;
-	bottom: 100px;
-}
-.caption h1 {
-  display: inline-block;
-  padding-bottom: 117px;
-  font-size: 40px;
-  position: relative;
-  left: 500px;
-
-}
-.filter {
-	position: relative;
-	padding-left: 140px;
-  color: #ACACAC;
-}
-.filter a {
-  display: inline-block;
-  text-align: center;
-  background-color: #EEEEEE;
-  width: 260px;
-  height: 50px;
-  padding-top: 15px;
-  margin-top: 50px;
-}
-.filter h3 {
-  color: black;
-}
-
-#do {
-	padding-left: 10px;
-}
-#ot {
-	padding-left: 25px;
-}
-button {
-	background: no-repeat;
-	border: 0px solid #eee;
-}
- .catalog-item .desc {
-  width: 360px;
-  height: 230px;
-  background-color: #eeeeee;
-  text-align: center;
-}
-.catalog-item h3 {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-.desc a {
-  background-color: #fb565a;
-  border-radius: 2px;
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  height: 49px;
-  color: white;
-  position: relative;
-  padding-top: 15px;
-  top: 30px;
-}
-.desc {
-  position: relative;
-  bottom: 253px;
-}
-.catalog-item p {
-  color: #666666;
-}
-#decor {
-  position: relative;
-  bottom: 576px;
-  right: 364px;
+.logo {
+  float: left;
+  margin-top: 25px;
+  margin-right: 100px;
 }
 .main-navigation {
+  float: left;
+  margin-top: 82px;
+}
+.menu {
+  padding: 0;
+  margin: 0;
   display: inline-block;
-  text-align: center;
 }
-form {
-  float: left; width: 540px;
+.menu li {
+  float: left;
+  display: inline-block;
+  margin-right: 48px;
 }
-.Right {
-  float: right; width: 900px;
+.menu li:last-child {
+  margin-right: 0; 
 }
-.sort h3 {
-  position: relative;
-  left: 30px;
-}
-.sort button {
-  font-family: "Roboto", Helvetica, sans-serif;
-  font-size: 15px;
-}
-.price {
-  position: relative;
-  bottom: 40px;
-  left: 425px;
+.menu a {
   color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px; 
+}
+.Basket {
+  margin-left: 281px;
+}
+.caption {
+  float: left;
+  margin-top: 110px; 
+}
+.filter {
+  float: left;
+  display: inline-block;
+}
+.Features {
+  float: left;
+  display: inline-block;
+}
+.Grid {
+  float: left;
+  display: inline-block;
 
 }
-.typ {
-  position: relative;
-  bottom: 40px;
-  left: 455px;
-  color: #CBCBCB;
-}
-.name {
-  position: relative;
-  bottom: 40px;
-  left: 480px;
-  color: #CBCBCB;
-}
-.down {
-  position: relative;
-  bottom: 40px;
-  left: 500px;
-  color: black;
-}
-.up {
-  position: relative;
-  bottom: 40px;
-  left: 500px;
-  color: #CBCBCB;
+.sort {
+  float: left;
+  display: inline-block;
 }
 .catalog-items {
-  position:relative;
-  width: 820px;
-  height: 1920px;
-  padding-top: 60px;
-  left: 30px;
+  float: right;
 }
-#pink {
-  position: relative;
-  left: 400px;
-  bottom: 830px;
+.paginator {
+  float: left;
 }
-#borodinski {
-  position: relative;
-  bottom: 1000px;
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: inline-block;
 }
-#mishka {
-  position: relative;
-  left: 400px;
-  bottom: 1830px;
-}
-#Aplus {
-  position: relative;
-  bottom: 2000px;
-}
-#kvast {
-  position: relative;
-  left: 400px;
-  bottom: 2830px;
-}
-#map {
-  margin-top: 200px;
-}
-.marker {
-  position: relative;
-  left: 820px;
-  bottom: 330px;
-}
-input {
-  background-color: #EEEEEE;
-  border: 0px solid #EEEEEE;
-}
-.paginator li {
-  border: 2px solid #EEEEEE;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  padding-top: 13px;
-  margin-right: 5px;
-  display: inline-block;
-  position: relative;
-  top: 1600px;
-  left: 500px;
-}
-#two-three {
-  background-color: #EEEEEE;
-}
-#next {
-  width: 260px;
-  background-color: #EEEEEE;
-}
-.footer-copirite {
-  text-align: center;
-}
-.footer-copirite p {
-  position: relative;
-  right: 52px;
-  font-size: 12px;
-}
-.adress {
-width: 320px;
-height: 310px;
-background: white;
-position: relative;
-bottom: 560px;
-left: 140px;
-text-align: center;
-padding-top: 55px; 
-}
-#btn {
-  font-family: "Roboto" Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  border: 1px solid white;
-  background-color: #FB565A;
-  border-radius: 2px;
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  height: 49px;
-  color: white;
-}
-.footer-social {
-  display: inline-block;
-  position: relative;
-  bottom: 400px;
-  left: 140px;
-  margin-bottom: auto;
-}
-#vk {
-  position: relative;
-  right: 58px;
-  bottom: 30px;
-}
-#fb {
-  position: relative;
-  right: 50px;
-  left: 40px;
-  bottom: 113px;
-}
-#inst {
-  position: relative;
-  right: 55px;
-  bottom: 195px;
-  left: 125px;
-}
-#fb1 {
-  position: relative;
-  bottom: 83px;
-  left: 90px;
-}
-#inst1 {
-  position: relative;
-  bottom: 165px;
-  left: 180px;
-}
-.footer-copirite {
-  display: inline-block;
-  position: relative;
-  bottom: 570px;
-  left: 540px;
-  margin-bottom: auto;
+.clearfix:after {
+   clear: both;
 }
