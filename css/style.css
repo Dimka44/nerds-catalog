@@ -453,11 +453,6 @@ body {
   width: 1440px;
   margin: 0px;
 }
-body {
-  font-family: 'Roboto', sans-serif;
-  width: 1440px;
-  margin: 0 auto;
-}
 .main-header {
   background-color: #eeeeee;
   height: 355px;
@@ -502,28 +497,127 @@ body {
   float: left;
   margin-top: 110px; 
 }
-.filter {
+.container form {
   float: left;
-  display: inline-block;
+  width: 260px;
+  margin-right: 140px;
+  margin-top: 36px;
 }
-.Features {
-  float: left;
+.form-group {
   display: inline-block;
+  width: 260px;
 }
-.Grid {
-  float: left;
+.form-group a {
+  font-size: 16px;
   display: inline-block;
-
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #eeeeee;
+  width: 260px;
+  height: 50px;
+  margin-top: 40px;
+}
+.form-range input {
+  background-color: #eeeeee;
 }
 .sort {
-  float: left;
+  display: inline;
+}
+.sort h3 {
+  margin-top: 55px;
+  margin-bottom: 0px;
   display: inline-block;
 }
-.catalog-items {
+.sort button {
   float: right;
+  text-transform: uppercase;
+  background: no-repeat;
+  border: 0px;
+  margin-right: 24px;
+  margin-top: 61px;
+  padding: 0px;
+}
+.up-down {
+  display: inline;
+}
+.up-down button {
+  margin-right: 10px;
+}
+.up-down button:first-child {
+  margin-right: 0px;
+}
+.down {
+  color: #a6a6a6;
+}
+.catalog {
+  float: left;
+  width: 760px;
+}
+.catalog-items {
+  margin-top: 60px;
+  position: relative;
+  width: 820px;
+}
+.catalog-item {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  position: relative;
+}
+.catalog-item figure {
+  margin: 0px;
+}
+.desc {
+  position: absolute;
+  top: 346px;
+  right: 0;
+  width: 360px;
+  height: 230px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+.desc h3 {
+  text-transform: uppercase;
+}
+.desc a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #fb565a;
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
 }
 .paginator {
   float: left;
+}
+.paginator li {
+  display: inline-block;
+  width: 52px;
+  height: 50px;
+  border: 3px solid #eeeeee;
+  background-color: #eeeeee;
+  padding: 13px 0px 0px 20px;
+  border-radius: 5px;
+}
+.paginator li:first-child {
+  background-color: white;
+}
+.paginator li:last-child {
+  padding-left: 70px;
+  width: 260px;
+  height: 50px;
+}
+.paginator a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 .clearfix:before,
 .clearfix:after {
@@ -532,4 +626,63 @@ body {
 }
 .clearfix:after {
    clear: both;
+}
+.map {
+  float: left;
+}
+.adress {
+  width: 319px;
+  height: 308px;
+  position: absolute;
+  top: 2488px;
+  text-align: center;
+  border: 1px solid white;
+  background: white;
+}
+.adress p {
+  color: #8f8f8f;
+  margin-top: 40px;
+}
+.adress a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #fb565a;
+    width: 220px;
+    height: 50px;
+    margin-top: 40px;
+}
+.map-marker {
+  width: 156px;
+  position: absolute;
+  top: 2527px;
+  left: 819px;
+  margin: 0 auto;
+}
+.footer-social {
+  float: left;
+  margin-right: 140px;
+  margin-top: 69px;
+}
+.footer-social div {
+  display: inline-block;
+}
+.footer-copirite {
+  float: left;
+  margin-top: 39px;
+}
+.footer-copirite h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.footer-copirite p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 0px;
+  margin-bottom: 70px;
 }

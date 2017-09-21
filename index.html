@@ -32,18 +32,17 @@
 		</div>
 		</header>
 	<main>
-		
-			<form action="">
 			<div class="container">
-				<div class="filter">
+				<form action="">
+				<div class="form-group">
 					<h3>Стоимость:</h3>
-						<div class="min">
+						<div class="form-range">
 							<input type="range" min="0" max="25000" step="1" value="15000"><br>от
 							<input type="text" value="0" size="1" id="ot">до
 							<input type="text" value="15000" size="4" id="do">
 						</div>
 				</div>
-				<div class="Grid">
+				<div class="form-group">
 						<h3>Сетка:</h3>
 				<div class="rd-group">		
 					<label for="rd1">
@@ -60,7 +59,7 @@
 					</label>
 				</div>	
 				</div>
-					<div class="Features">
+					<div class="form-group">
 						<h3>Особенности:</h3>
 						<div class="ch-group">
 						<label>
@@ -86,66 +85,76 @@
 						</div>
 						<a href="#">Показать</a>
 					</div>
-		</form>	
-		<div class="Right">
+				</div>
+		</form>
+		<div class="container">
+		<div class="catalog">
 			<div class="sort">
 				<h3>Сортировать:</h3>
-				<button class="price">по цене</button>
-				<button class="typ">по типу</button>
-				<button class="name">по названию</button>
-				<a class="down">▼</a></a>
-				<a class="up">▲</a>
+				<div class="up-down">
+					<button class="down">▼</button>
+					<button>▲</button>
+				</div>
+				<button>по цене</button>
+				<button>по типу</button>
+				<button>по названию</button>
 			</div>
 			<!--Начинаются перечисление товаров-->
 		<div class="catalog-items">
 			<div class="catalog-item">
-				<img src="img/img-sedona.jpg" alt="Sedona">
-				<img src="img/browser.png" alt="" id="decor"> 
+				<figure>
+					<img src="img/img-sedona.jpg" alt="Sedona">
+				</figure>
 				<div class="desc">
 				<h3>Sedona</h3>
 				<p>Информационный сайт для туристов</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
-			<div class="catalog-item" id="pink">
-				<img src="img/img-pink.jpg" alt="Pink">
-				<img src="img/browser.png" alt="" id="decor">
+			<div class="catalog-item">
+				<figure>
+					<img src="img/img-pink.jpg" alt="Pink">
+				</figure>
 				<div class="desc">
 					<h3>Pink App</h3>
 				<p>Продуктовый лендинг приложения для IOS и Android</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
-			<div class="catalog-item" id="borodinski">
-				<img src="img/img-barbershop.jpg" alt="Borodinski">
-				<img src="img/browser.png" alt="" id="decor">
+			<div class="catalog-item">
+				<figure>
+					<img src="img/img-barbershop.jpg" alt="Borodinski">
+				</figure>
 				<div class="desc">
 					<h3>Barbershop</h3>
 				<p>Сайт салона красоты. Для мужчин, да.</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
-			<div class="catalog-item" id="mishka">
-				<img src="img/img-mishka.jpg" alt="Mishka">
-				<img src="img/browser.png" alt="" id="decor">
+			<div class="catalog-item">
+				<figure>
+					<img src="img/img-mishka.jpg" alt="Mishka">
+				</figure>
 				<div class="desc">
 					<h3>Mishka</h3>
 				<p>Интернет магазин вязаных игрушек</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
-			<div class="catalog-item" id="Aplus">
-				<img src="img/img-aplus.jpg" alt="A plus">
-				<img src="img/browser.png" alt="" id="decor">
+			<div class="catalog-item">
+				<figure>
+					<img src="img/img-aplus.jpg" alt="A plus">
+				</figure>
 				<div class="desc">
 					<h3>A Plus</h3>
 				<p>Лендинг курсов повышения квалификации</p>
 				<a href="">9 900 РУБ.</a>
 				</div>
 			</div>
-			<div class="catalog-item" id="kvast">
-				<img src="img/img-kvast.jpg" alt="Kvast">
-				<img src="img/browser.png" alt="" id="decor">
+			<div class="catalog-item">
+				<figure>
+					<img src="img/img-kvast.jpg" alt="Kvast">
+				</figure>
 				<div class="desc">
 				<h3>КВАСТ</h3>
 				<p>Промо-сайт производителя крафтового кваса</p>
@@ -153,70 +162,63 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
-	<div class="paginator">
+		<div class="paginator">
 			<ul class="clearfix">
 				<li>
-				<button>
 					<a href="#">1</a>
-				</button>
 				</li>
-				<li id="two-three">
-				<button>
+				<li class="two-three">
 					<a href="#">2</a>
-				</button>
 				</li>
-				<li id="two-three">
-				<button>
+				<li class="two-three">
 				    <a href="#">3</a>
-				</button>
 				</li>
-				<li id="next">
-				<button>
+				<li>
 					<a href="#">Следующая</a>
-				</button>
 				</li>
 			</ul>
 		</div>
+	</div>
+	</div>
 		<div class="map">
-        <img src="img/Карта.png" alt="Карта" id="map">
-        <img src="img/map-marker.png" class="marker">
-    </div>
-    <div class="adress">
+        		<img src="img/Карта.png" alt="Карта">
+        		<div class="map-marker">
+        			<img src="img/map-marker.png" class="marker">
+        		</div>
+        	</div>
+		</main>
+     <footer class="main-footer">
+     <div class="container">
+     <section class="adress">
     	<h3>NЁRDS DESIGN STUDIO</h3>
- 	<pre>
-191186, Санкт-Петербург,
-ул. Б. Конюшенная, д. 19/8
-<p id="tel">тел. +7 (812) 275-75-75</p></pre>
-<button id="btn">Напишите нам</button>
-    </div>
-	</main>
-	<footer class="main-footer">
+ 		<p>
+191186, Санкт-Петербург,<br>
+ул. Б. Конюшенная, д. 19/8<br>
+тел. +7 (812) 275-75-75</p>
+		<a>Напишите нам</a>
+     </section>
      	<section class="footer-social">
      	<div class="vk">
-     	<img src="img/vk.png">
      		<a class="social-btn social-btn-vk" href="#" id="vk">
      			<img src="img/vk-icon.png">
      		</a>
      	</div>
      	<div class="fb">
-     	<img src="img/fb.png" id="fb1">
 			<a class="social-btn social-btn-fb" href="#" id="fb">
 				<img src="img/fb-icon.png">
 			</a>
 		</div>
 		<div class="inst">
-		<img src="img/inst.png" id="inst1">
 			<a class="social-btn social-btn-inst" href="#" id="inst">
 				<img src="img/insta-icon.png">
 			</a>
 		</div>
      	</section>
      	<section class="footer-copirite">
-     		<h1>Давайте дружить, это выгодно!</h1>
+     		<h2>Давайте дружить, это выгодно!</h2>
      		<p>Скидка 10% для друзей из социальных сетей.</p>
      	</section>
+     </div>
      </footer>
 </body>
 </html>
