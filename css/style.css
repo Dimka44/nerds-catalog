@@ -517,15 +517,15 @@ body {
   width: 260px;
 }
 .form-group a {
-  font-size: 16px;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
   text-align: center;
+  padding-top: 25px;
   background-color: #eeeeee;
   width: 260px;
-  height: 50px;
+  height: 40px;
   margin-top: 40px;
 }
 .form-range input {
@@ -605,11 +605,18 @@ body {
   text-transform: uppercase;
   color: white;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
   background-color: #fb565a;
   width: 200px;
-  height: 50px;
+  height: 40px;
   margin-top: 40px;
+}
+.desc p {
+  padding: 0 20px 0 20px;
+  margin-bottom: 0px;
+}
+.pinkshop {
+  margin-top: 10px;
 }
 .paginator {
   float: left;
@@ -618,10 +625,11 @@ body {
 .paginator li {
   display: inline-block;
   width: 52px;
-  height: 50px;
+  height: 35px;
   border: 3px solid #eeeeee;
   background-color: #eeeeee;
   border-radius: 5px;
+  padding-top: 15px;
 }
 .paginator li:first-child {
   background-color: white;
@@ -629,7 +637,8 @@ body {
 .paginator li:last-child {
   padding-left: 70px;
   width: 260px;
-  height: 50px;
+  height: 35px;
+  padding-top: 15px;
 }
 .paginator a {
   text-decoration: none;
@@ -643,12 +652,15 @@ body {
 .maps {
   width: 100%;
 }
+.map1 {
+  width: 100%;
+}
 .adress {
-  width: 319px;
-  height: 303px;
+  width: 285px;
+  height: 270px;
   position: absolute;
-  top: 2510px;
-  left: 140px;
+  top: 2500px;
+  left: 120px;
   text-align: center;
   border: 1px solid white;
   background: white;
@@ -657,7 +669,7 @@ body {
   color: #8f8f8f;
   margin-top: 40px;
   width: 251px;
-  padding-left: 50px;
+  padding-left: 15px;
 }
 .adress a {
   display: inline-block;
@@ -668,14 +680,14 @@ body {
   padding-top: 15px;
   background-color: #fb565a;
   width: 220px;
-  height: 50px;
+  height: 35px;
   margin-top: 40px;
 }
 .map-marker {
   width: 156px;
   position: absolute;
-  top: 2550px;
-  left: 820px;
+  top: 2510px;
+  left: 715px;
   margin: 0 auto;
 }
 .copirate h3 {
