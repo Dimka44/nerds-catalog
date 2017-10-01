@@ -519,17 +519,7 @@ body {
 .form-group a {
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase;
   color: black;
-  text-align: center;
-  padding-top: 25px;
-  background-color: #eeeeee;
-  width: 260px;
-  height: 40px;
-  margin-top: 40px;
-}
-.form-range input {
-  background-color: #eeeeee;
 }
 .sort {
   display: inline;
@@ -587,9 +577,28 @@ body {
 .kvast {
   margin-right: 0px;
 }
+.title{
+  font-size: 0;
+  background-color: #EEEEEE;
+  width: 360px;
+  height:40px ;
+  border-radius: 5px 5px 0 0;
+}
+.title-btn{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-left: 8px;
+  margin-top: 14px;
+  border-radius: 50%;
+}
+.title-btn:first-child{
+  margin-left: 20px;
+}
 .desc {
   position: absolute;
-  top: 346px;
+  top: 385px;
   right: 0;
   width: 360px;
   height: 230px;
@@ -621,6 +630,7 @@ body {
 .paginator {
   float: left;
   width: 580px;
+  margin-bottom: 60px;
 }
 .paginator li {
   display: inline-block;
@@ -646,9 +656,6 @@ body {
   text-transform: uppercase;
   margin-left: 20px;
 }
-.map {
-  float: left;
-}
 .maps {
   width: 100%;
 }
@@ -659,7 +666,7 @@ body {
   width: 285px;
   height: 270px;
   position: absolute;
-  top: 2500px;
+  top: 2680px;
   left: 120px;
   text-align: center;
   border: 1px solid white;
@@ -686,7 +693,7 @@ body {
 .map-marker {
   width: 156px;
   position: absolute;
-  top: 2510px;
+  top: 2690px;
   left: 715px;
   margin: 0 auto;
 }
