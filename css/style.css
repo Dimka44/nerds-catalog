@@ -512,12 +512,23 @@ body {
   width: 18.1%;
   margin-top: 55px;
 }
-.form-group {
-  display: inline-block;
-  width: 260px;
+.rd-group {
+  line-height: 40px;
 }
-.form-group a {
-  display: inline-block;
+.ch-group {
+  line-height: 40px;
+}
+form button {
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 20px 90px;
+    color: black;
+    margin-top: 40px;
+}
+form button a {
   text-decoration: none;
   color: black;
 }
