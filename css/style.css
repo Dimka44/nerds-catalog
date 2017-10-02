@@ -454,26 +454,23 @@ body {
   background-color: #eeeeee;
   height: 355px;
 }
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  height: 175px;
+}
 .container {
   width: 80.6%;
   margin: 0 auto;
 }
 .logo {
-  float: left;
-  margin-top: 25px;
-  margin-right: 13.9%;
-}
-.clearfix:before,
-.clearfix:after {
-   content: "";
-   display: inline-block;
-}
-.clearfix:after {
-   clear: both;
+  display: inline-block;
+  margin-top: 20px;
 }
 .main-navigation {
-  float: left;
-  margin-top: 82px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .menu {
   padding: 0;
@@ -481,12 +478,11 @@ body {
   display: inline-block;
 }
 .menu li {
-  float: left;
   display: inline-block;
   margin-right: 48px;
 }
 .menu li:last-child {
-  margin-left: 163px;
+  margin-left: 160px;
   margin-right: 0; 
 }
 .icon {
@@ -508,7 +504,8 @@ body {
   font-size: 46px;
 }
 .container form {
-  float: left;
+  display: flex;
+  flex-direction: column;
   width: 18.1%;
   margin-top: 55px;
 }
@@ -524,7 +521,7 @@ form button {
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
-    padding: 20px 90px;
+    padding: 20px;
     color: black;
     margin-top: 40px;
 }
@@ -541,16 +538,20 @@ form button a {
   display: inline-block;
 }
 .sort button {
-  float: right;
+  position: relative;
+  left: 230px;
+  font-size: 14px;
   text-transform: uppercase;
   background: no-repeat;
   border: 0px;
-  margin-right: 24px;
+  margin-right: 20px;
   margin-top: 61px;
   padding: 0px;
 }
 .up-down {
-  display: inline;
+  display: inline-block;
+  position: relative;
+  left: 370px;
 }
 .up-down button {
   margin-right: 10px;
@@ -639,7 +640,6 @@ form button a {
   margin-top: 10px;
 }
 .paginator {
-  float: left;
   width: 580px;
   margin-bottom: 60px;
 }
@@ -715,7 +715,7 @@ form button a {
   text-align: center; 
 }
 .footer-social {
-  float: left;
+  display: inline-block;
   margin-right: 140px;
   margin-top: 69px;
 }
@@ -723,7 +723,7 @@ form button a {
   display: inline-block;
 }
 .footer-copirite {
-  float: left;
+  display: inline-block;
   margin-top: 39px;
 }
 .footer-copirite h2 {
