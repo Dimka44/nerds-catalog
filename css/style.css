@@ -563,7 +563,8 @@ form button a {
   color: #a6a6a6;
 }
 .catalog {
-  float: right;
+  display: flex;
+  flex-direction: column;
   width: 734px;
 }
 .catalog-items {
