@@ -562,6 +562,10 @@ form button a {
 .down {
   color: #a6a6a6;
 }
+main .container:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
 .catalog {
   display: flex;
   flex-direction: column;
