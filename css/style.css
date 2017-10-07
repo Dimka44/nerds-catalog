@@ -753,3 +753,77 @@ main .container:nth-child(2) {
   margin-top: 0px;
   margin-bottom: 70px;
 }
+.modal {
+  position: absolute;
+  top: 1755px;
+  left: 205px;
+  border: 1px solid #eeeeee;
+  box-shadow: -5px 20px 35px #7b7c7c;
+  width: 925px;
+  height: 550px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  display: none;
+}
+.open {
+  display: block;
+}
+.form-modal {
+  width: 760px;
+  height: 440px;
+  margin: 0 auto;
+}
+.form-modal p {
+  font-weight: bold;
+}
+.form-modal input {
+  width: 360px;
+  height: 46px;
+  padding-left: 10px;
+  color: #bababa;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.you-name,
+.you-email {
+  width: 360px;
+}
+.user-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.form-modal textarea {
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  color: #bababa;
+  padding: 10px 0 0 10px;
+  width: 760px;
+  height: 118px;
+}
+.send {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 47px;
+  text-align: center;
+  background-color: #fb565a;
+  width: 260px;
+  height: 50px;
+}
+.close {
+  border: none;
+  background: #ffffff;
+  position: relative;
+  bottom: 415px;
+  left: 475px;
+  color: #fecccd;
+}
+.close button:hover {
+  color: red;
+}
